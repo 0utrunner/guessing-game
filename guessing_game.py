@@ -6,7 +6,6 @@ class GuessingGame():
     def __init__(self, our_num):
         self.our_num = our_num
         self.guess_num = 0
-        # self.solved = False
 
     def guess(self, guess_num):
         self.guess_num = int(guess_num)
